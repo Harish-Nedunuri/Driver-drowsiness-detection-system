@@ -6,9 +6,9 @@ import uuid   # Unique identifier
 import os
 import time
 
-IMAGES_PATH = 'D:\Driver-drowsiness-detection-system\data'
-labels = ['awake', 'drowsy']
-number_imgs = 2
+IMAGES_PATH = 'D:\Driver-drowsiness-detection-system\data\images'
+labels = ['normal_drive', 'drowsiness_identified']
+number_imgs = 20
 
 cap = cv2.VideoCapture(0)
 # Loop through labels

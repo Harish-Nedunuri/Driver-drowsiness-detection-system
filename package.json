@@ -1,0 +1,9 @@
+{
+    "module_name": "driver_drowsiness_detection",
+    "module_version": "1.2.3",
+    "module_description": "Infer yolo",
+    "jobs": [
+        "object_detection_video"
+    ],
+    "tasks": ["video_inference"]
+}
